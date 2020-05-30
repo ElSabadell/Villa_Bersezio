@@ -2052,7 +2052,7 @@ $(document).ready( function () {
 	});
 });
 
-// Scroll gALLERY
+// Scroll Gallery
 $(document).ready( function () {
 	$('.glyphicon-picture').on('click',function () {
 		$("html").scrollTop(0);

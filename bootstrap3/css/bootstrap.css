@@ -7186,7 +7186,7 @@ header, .parallax{
 .glyphicon-user:hover{
   color: #817c79;
 }
-.glyphicon-picture{
+.glyphicon-map-marker{
   color: #fff;
   text-align: left;
   position: absolute;
@@ -7198,10 +7198,10 @@ header, .parallax{
   transition-timing-function: linear;
   transition-duration: .3s;
 }
-.glyphicon-picture:hover{
+.glyphicon-map-marker:hover{
   color: #817c79;
 }
-.glyphicon-map-marker{
+.glyphicon-picture{
   color: #fff;
   text-align: left;
   position: absolute;
@@ -7213,9 +7213,10 @@ header, .parallax{
   transition-timing-function: linear;
   transition-duration: .3s;
 }
-.glyphicon-map-marker:hover{
+.glyphicon-picture:hover{
   color: #817c79;
 }
+
 .glyphicon-earphone{
   color: #fff;
   text-align: left;
@@ -7246,7 +7247,20 @@ header, .parallax{
   top: 34vh;
   right: 10vh;
 }
-.title-card{
+.title-about{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  background-size: cover;
+  color: #dbd9c8;
+  font-family: 'Abril Fatface', cursive !important;
+  text-shadow: -3px 3px 0px #1a9c06; 
+}
+.title-position{
   height: 100vh;
   background-color: black;
   display: flex;
@@ -7256,5 +7270,13 @@ header, .parallax{
   justify-content: center;
   background-size: cover;
 }
-
-
+.title-contact{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: center;
+  background-size: cover;
+}
