@@ -8,4 +8,4 @@ Instagram: elsabadell.x
 
 ----------------------
 
-WeSite: mashome.altervista.org
+WebSite: mashome.altervista.org
